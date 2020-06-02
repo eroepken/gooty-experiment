@@ -83,6 +83,9 @@
                 ".editorconfig": "../.editorconfig",
                 ".gitattributes": "../.gitattributes"
             }
+        },
+        "patches": {
+            "Ignore install profile install methods": "https://www.drupal.org/files/issues/2018-11-27/2982052-22.patch"
         }
     }
 }

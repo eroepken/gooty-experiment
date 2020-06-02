@@ -1,4 +1,4 @@
-uuid: c960c6bc-ae35-4b1a-bd8e-269fddf5bf00
+uuid: f19c5a34-5fde-4a17-ae2f-4213d8ec57da
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - admin@example.com
+  - estrejlau@phase2technology.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

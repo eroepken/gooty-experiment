@@ -1,0 +1,20 @@
+uuid: e023255a-2424-45a3-9965-8a538a9598b4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gooty
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: gooty_page_title
+theme: gooty
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

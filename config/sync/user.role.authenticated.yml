@@ -1,4 +1,4 @@
-uuid: d6181436-e473-47cc-92cc-17a828a09ade
+uuid: 4ac57047-04d4-4ee8-b768-8f705a367a48
 langcode: en
 status: true
 dependencies: {  }
@@ -17,3 +17,4 @@ permissions:
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'use text format gutenberg'

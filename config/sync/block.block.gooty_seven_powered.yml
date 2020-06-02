@@ -1,0 +1,22 @@
+uuid: d03863bf-b386-4dee-bb29-586dbdc496eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gooty_seven
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: gooty_seven_powered
+theme: gooty_seven
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
