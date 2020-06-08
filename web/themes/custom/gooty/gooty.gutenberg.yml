@@ -1,4 +1,30 @@
 libraries-edit:
   - gutenberg/edit-node
-  - gooty/example-block-edit
-  - gooty/massive-cover
+  - gooty/core-overrides
+  - gooty/stats-block
+theme-support:
+  colors:
+    - slug: "blue"
+      name: "Blue"
+      color: "#0080FF"
+    - slug: "soft-black"
+      name: "Soft Black"
+      color: "#171717"
+    - slug: "karma-coral"
+      name: "Karma Coral"
+      color: "#FA5C5C"
+    - slug: "not-grey"
+      name: "Not Grey"
+      color: "#CFC7D4"
+    - slug: "dusty-blue"
+      name: "Dusty Blue"
+      color: "#7FC7EE"
+    - slug: "misty-teal"
+      name: "Misty Teal"
+      color: "#73F2E5"
+    - slug: "electric-violet"
+      name: "Electric Violet"
+      color: "#9484FF"
+    - slug: "dark-grey"
+      name: "Dark Grey"
+      color: "#353535"

@@ -31,7 +31,11 @@ libraries-override:
       base:
         css/base/elements.css: false
   # # Remove Gutenberg's element styles
-  # gutenberg/editor:
-  #   css:
-  #     theme:
-  #       vendor/gutenberg/editor/editor-styles.css: false
+  gutenberg/editor:
+    css:
+      theme:
+        vendor/gutenberg/editor/editor-styles.css: false
+  gutenberg/block-library:
+    css:
+      theme:
+        vendor/gutenberg/block-library/editor.css: false

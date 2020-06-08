@@ -1,15 +1,14 @@
 base:
   css:
     theme:
-      https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css: {}
       css/gooty.css: {}
-example-block-edit:
+core-overrides:
   js:
-    js/example-block.js: {}
+    js/core-overrides.js: {}
   dependencies:
     - gooty/base
-massive-cover:
+stats-block:
   js:
-    js/massive-cover.js: {}
+    js/stats-block.js: {}
   dependendies:
     - gooty/base

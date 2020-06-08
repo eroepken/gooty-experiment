@@ -6,13 +6,19 @@ core: 8.x
 base theme: classy
 libraries:
   - gooty/base
-  # - gooty/example-block-edit
 # Blow away styles from modules/themes
 libraries-override:
   # Remove Drupal core normalize
   core/normalize: false
-  # Remove Gutenberg's elemen styles
-  # gutenberg/editor:
-  #   css:
-  #     theme:
-  #       vendor/gutenberg/editor/editor-styles.css: false
+  # Remove Gutenberg's element styles
+  gutenberg/editor:
+    css:
+      theme:
+        vendor/gutenberg/editor/editor-styles.css: false
+
+  gutenberg/blocks-view:
+    css:
+      theme:
+        vendor/gutenberg/block-library/style.css: false
+        vendor/gutenberg/block-library/theme.css: false
+        css/block-library.css: false
